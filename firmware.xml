@@ -1,0 +1,106 @@
+<boards>
+  <!--
+     Firmware for Ultimaker Shield v1.0, v1.1.
+    -->
+  <board name="Ultimaker - Arduino Mega Shield v1.5.X (Mega 2560 only)">
+    <version major="1" minor="5"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v2</protocol>
+      <speed>115200</speed>
+      <arch>atmega2560</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware
+       major="0"
+       minor="1"
+       relpath="firmware/UM-v1.1-PCB1.5-thermocouple-build-1-AtMega2560.hex"
+       srcpath="firmware-src/UM-v1.5-build-1"
+       name="Build 1 (Standard release)"
+       description="For AtMega 2560 without FTDI chip. Initial version for the 1.5.3 and later version of the PCB. This firmware is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+  </board>
+  <board name="Ultimaker - Arduino Mega Shield v1.5.X (Mega 1280 only)">
+    <version major="1" minor="5"/>
+    <version major="1" minor="4"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>atmega1280</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware
+       major="0"
+       minor="0"
+       relpath="firmware/UM-v1.1-PCB1.5-thermocouple-build-0.hex"
+       srcpath="firmware-src/UM-v1.5-build-0"
+       name="Build 0 (Standard release)"
+       description="Initial version for the 1.5.3 and later version of the PCB. This firmware is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/RepRapUltimakerFirmware-2011-04-17.zip"
+       />
+  </board>
+  <board name="Ultimaker - Arduino Mega Shield v1.1 (Mega 1280 only)">
+    <version major="1" minor="1"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>atmega1280</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware
+       major="1"
+       minor="0"
+       relpath="firmware/UM-v1.1-PCB1.1-thermistor-build-2.hex"
+       srcpath="firmware-src/UM-v1.1-build-0"
+       name="v1.1 THERMISTOR release 2"
+       description="Fix: temperature protection turned of to enable actual printing. This firmware uses the following thermistor: RS thermistor 528-8592; EPCOS NTC G540. This is the very first release for the Ultimaker that you can upload automatically. It is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+    <firmware
+       major="1"
+       minor="0"
+       relpath="firmware/UM-v1.1-PCB1.1-thermocouple-build-2.hex"
+       srcpath="firmware-src/UM-v1.1-build-0"
+       name="v1.1 AD595/AD597 THERMOCOUPLE release 2"
+       description="Fix: temperature protection turned of to enable actual printing. This uses the extra PCB with an AD597 chip for temperature measurements. This firmware is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+    <firmware
+       major="1"
+       minor="0"
+       relpath="firmware/UM-v1.1-PCB1.1-thermistor-build-1.hex"
+       srcpath="firmware-src/UM-v1.1-build-0"
+       name="v1.1 THERMISTOR release 1"
+       description="This firmware uses the following thermistor: RS thermistor 528-8592; EPCOS NTC G540. This is the very first release for the Ultimaker that you can upload automatically. It is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+    <firmware
+       major="1"
+       minor="0"
+       relpath="firmware/UM-v1.1-PCB1.1-thermocouple-build-1-AtMega1280.hex"
+       srcpath="firmware-src/UM-v1.1-build-0"
+       name="v1.1 AD595/AD597 THERMOCOUPLE release 1"
+       description="This uses the extra PCB with an AD597 chip for temperature measurements. This firmware is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+    <firmware
+       major="1"
+       minor="0"
+       relpath="firmware/UM-v1.1-build-0.hex"
+       srcpath="firmware-src/UM-v1.1-build-0"
+       name="v1.1 release 0"
+       description="This is the very first release for the Ultimaker that you can upload automatically. It is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+  </board>
+  <board name="Ultimaker - Arduino Mega Shield v1.0 (Mega 1280 only)">
+    <version major="1" minor="0"/>
+    <programmer class="replicatorg.uploader.AvrdudeUploader">
+      <protocol>stk500v1</protocol>
+      <speed>57600</speed>
+      <arch>atmega1280</arch>
+      <manualreset>false</manualreset>
+    </programmer>
+    <firmware
+       major="1"
+       minor="1"
+       relpath="firmware/UM-v1.0-build-0.hex"
+       srcpath="firmware-src/UM-v1.0-build-0"
+       name="v1.0 release 0"
+       description="This is the very first release for the Ultimaker that you can upload automatically. It is based on the firmware of the RepRap 5D version. For the source code, see http://firmware.ultimaker.com/firmware-src/"
+       />
+  </board>
+</boards>

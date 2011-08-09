@@ -1,0 +1,9 @@
+Format is tab separated skeinforge settings.
+Name                          	Value
+WindowPosition	350+70
+Open File for Skeinforge	/home/erik/Desktop/whistle90p.stl
+analyze	False
+craft	False
+help	False
+meta	False
+profile	True

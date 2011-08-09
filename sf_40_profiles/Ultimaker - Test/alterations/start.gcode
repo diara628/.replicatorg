@@ -1,0 +1,10 @@
+(**** beginning of start.txt ****)
+(**** begin initilization commands ****)
+G21 (set units to mm)
+G90 (set positioning to absolute)
+M104 S240 T0 (set extruder temperature)
+(**** end initilization commands ****)
+(**** begin homing ****)
+(**** end homing ****)
+(**** end of start.txt ****)
+

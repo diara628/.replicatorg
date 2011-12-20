@@ -3,7 +3,7 @@ Name                          	Value
 WindowPosition	700+0
 Open File for Carve	
 Add Layer Template to SVG	True
-Extra Decimal Places (float):	1.0
+Extra Decimal Places (float):	2.0
 Import Coarseness (ratio):	0.25
 Infill in Direction of Bridge	True
 Layer Thickness (mm):	0.25

@@ -2,7 +2,7 @@ Format is tab separated tower settings.
 Name                          	Value
 WindowPosition	700+0
 Open File for Tower	
-Activate Tower	False
-Extruder Possible Collision Cone Angle (degrees):	60.0
-Maximum Tower Height (layers):	6
+Activate Tower	True
+Extruder Possible Collision Cone Angle (degrees):	10.0
+Maximum Tower Height (layers):	3
 Tower Start Layer (integer):	1

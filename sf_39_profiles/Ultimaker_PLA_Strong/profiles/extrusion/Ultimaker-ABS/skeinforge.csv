@@ -1,6 +1,6 @@
 Format is tab separated skeinforge settings.
 Name                          	Value
-WindowPosition	1396+24
+WindowPosition	0+24
 Open File for Skeinforge	/home/erik/Desktop/whistle90p.stl
 analyze	False
 craft	True

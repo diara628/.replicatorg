@@ -2,6 +2,6 @@ Format is tab separated lash settings.
 Name                          	Value
 WindowPosition	600+0
 Open File for Lash	
-Activate Lash	True
+Activate Lash	False
 X Backlash (mm):	0.0
 Y Backlash (mm):	0.45

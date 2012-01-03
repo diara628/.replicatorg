@@ -7,7 +7,7 @@ Bridge Cool (Celcius):	1.0
 Orbit	False
 Slow Down	True
 Maximum Cool (Celcius):	2.0
-Minimum Layer Time (seconds):	0.01
+Minimum Layer Time (seconds):	0.5
 Minimum Orbital Radius (millimeters):	0.0
 Turn Fan On at Beginning	True
 Turn Fan Off at Ending	True
